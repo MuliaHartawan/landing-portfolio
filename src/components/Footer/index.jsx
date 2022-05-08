@@ -1,8 +1,8 @@
 import React from 'react';
 import {
-  VStack, Stack, Text, HStack, Link
+  VStack, Stack, Text, HStack
 } from '@chakra-ui/react';
-import { Envelope, Github, Linkedin, Mailbox } from 'react-bootstrap-icons';
+import { Envelope, Github, Linkedin } from 'react-bootstrap-icons';
 
 
 function Footer() {

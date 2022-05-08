@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Box, Heading, HStack, Text, Show, Hide
+  Box, Heading, HStack, Text
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
 import NavLink from './NavLink';

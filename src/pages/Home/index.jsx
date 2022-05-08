@@ -9,9 +9,7 @@ function Home() {
   return (
     <Box display="flex" justifyContent="space-between" alignItems="center" py="5" minH="calc(100vh - (80px + 120px))" >
         <Stack direction={['column', 'row']} spacing={9}>
-           {/* <Box>  */}
-                <Image src={avatar} m={['auto', 0]} borderRadius="full" boxSize="250px" alt='Mulia Hartawan Negara' boxShadow='lg' />
-           {/* </Box> */}
+          <Image src={avatar} m={['auto', 0]} borderRadius="full" boxSize="250px" alt='Mulia Hartawan Negara' boxShadow='lg' />
 
            <VStack align={['center', 'left']} textAlign={['center', 'left']} spacing={5}>
                <Heading as="h2" size="lg">Mulia Hartawan N</Heading>
